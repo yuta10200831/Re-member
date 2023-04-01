@@ -741,8 +741,8 @@ header.header div.header__bar.row div.grid-6 a.post:hover {
 
 header.header {
   padding: 10px;
-  border-bottom: 1px solid #D8D8D8;
-  background-color: #fff;
+  border-bottom: 1px solid #d8d8d8;
+  background-color: rgb(181, 211, 211);
   position: fixed;
   top: 0;
   left: 0;
