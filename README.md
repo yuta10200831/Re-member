@@ -26,7 +26,6 @@
 | user_id            | references | null: false                          |
 | content            | string     | null: false                          |
 | image              | string     |                                      |
-| comment            | string     |                                      |
 | tweet              | string     | null: false                          |
 
 ### Association
