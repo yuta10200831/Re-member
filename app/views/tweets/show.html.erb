@@ -12,7 +12,10 @@
       </ul>
     </div>
     <p><%= @tweet.content %></p>
-    <span class="name"><%= @tweet.tweet %>
+    <span class="name">
+      <a href="/users/<%= @tweet.user.id %>">
+        <span>投稿者</span><%= @tweet.user.nickname %>
+      </a>
     </span>
   </div>
 </div>

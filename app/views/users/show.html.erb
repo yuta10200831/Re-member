@@ -2,8 +2,8 @@
   <p><%= @nickname %>さんの投稿一覧</p>
   <% @tweets.each do |tweet| %>
     <div class="content_post" style="background-image: url(<%= tweet.image %>);">
-      <p><%= tweet.text %></p>
-      <span class="name"><%= tweet.name %></span>
+      <p><%= tweet.tweet %></p>
+      <span class="name"><%= tweet.tweet %></span>
     </div>
   <% end %>
 </div>
