@@ -14,7 +14,7 @@
       <h1 class="grid-6"><a href="/">Re:menber</a></h1>
       <% if user_signed_in? %>
         <div class="user_nav grid-6">
-          <span><%= current_user.nickname %>
+          <span>Hello! <%= current_user.nickname %>
             <ul class="user__info">
               <li>
                 <%= link_to "マイページ", "/users/#{current_user.id}" %>
